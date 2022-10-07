@@ -1,0 +1,59 @@
+Em busca da possibilidade de melhor organização da página e da seleção de elementos por CSS, 
+podemos utilizar *class* e\ou *ids* para identificação das tags.
+
+
+
+Id: identificação única, que só pode ser utilizada uma vez durante todo o doocumento. Normalmente
+ usada para idententificação de elementos estruturais da página. Use id quando quiser identificar
+ apenas um elemento.
+
+Exemplo:
+<html>
+    <head>
+        <style type="text/css">
+            #conteudo{
+                background-color:#CCC;
+            }
+            .caixa{
+                background-color:#555;
+                color:#FFF;
+                display:block;
+                height:100%;
+                width:100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="conteudo">
+            <div class="caixa"></div>
+            <div class="caixa"></div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+Class: reutilizável, pode se repetir durante a página e combinar-se com outras, podemos adicionar
+mais de uma classe em um elemento. Use class quando quiser se referir a mais de um elemento.
+
+Exemplo:
+
+<div class="caixa azul"></div>
+<div class="caixa vermelha"></div>
+<div class="caixa azul especial"></div>
+<div id="super-especial" class="caixa vermelha"></div>
+
+
+Tag: Este seletor básico escolhe todos os elementos que correspondem ao nome fornecido. Sintaxe: nome-da-tag Exemplo: 
+input corresponderá a qualquer elemento <input>.
+
+
+Fontes:
+
+HTML E CSS NA PRÁTICA, disponível em: https://guilhermemuller.com.br/ead/html-css-na-pratica/sintaxe-seletores-css#:~:text=Para%20possibilitar%20uma%20organiza%C3%A7%C3%A3o%20melhor,identificar%20elementos%20estruturais%20da%20p%C3%A1gina.
+
+ O que devo usar no CSS, id ou class? disponível em: https://pt.stackoverflow.com/questions/11130/o-que-devo-usar-no-css-id-ou-class
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors
