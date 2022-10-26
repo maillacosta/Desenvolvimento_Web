@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cardapio de bolos</title>
+        <link rel="icon" type="image/x-icon" href="adrip.jpg">
+        
+    </head>
+
+    <body style="background-color: rgba(252, 241, 248, 0.986);">
+
+        <p>
+            <center>
+                <img src="adrip.jpg" height="200" width="200">
+            </center>
+        </p>
+
+        <hr>
+
+        <h3>
+            <p style="color:rgb(94,17,29); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+                Bolos tradicionais:
+            </p>
+        </h3>
+
+        <div class="box">
+            <img src="bololaranja.jpg" height="200" width="200">
+            <span> Laranja </span>
+        </div>
+
+        <div class="box">
+            <img src="bolochocolate.jpg" height="200" width="200">
+            <span> Chocolate </span>
+        </div>
+
+        <div class="box">
+            <img src="bololimao.jpg" height="200" width="200">
+            <span> Limão </span>
+        </div>
+
+        <style>
+            div.box{
+                display: inline-table;
+                color: rgb(94,17,29);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                
+            }
+        </style>
+
+        <hr>
+
+        <h3>
+            <p style="color:rgb(94,17,29); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Bolos Especiais:
+            </p>
+        </h3>
+
+        <div class="esp">
+            <img src="esplaranja.jpg" height="200" width="200">
+            <span> Laranja </span>
+        </div>
+
+        <div class="esp">
+            <img src="spchoco.jpg" height="200" width="200">
+            <span> Chocolate </span>
+        </div>
+
+        <div class="esp">
+            <img src="spccenoura.jpg" height="200" width="200">
+            <span> Cenoura com Chocolate </span>
+        </div>
+
+        <style>
+            div.esp{
+                display: inline-table;
+                color: rgb(94,17,29);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                
+            }
+        </style>
+
+
+
+    </body>
+
+</html>
