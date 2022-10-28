@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Cardapio de bolos</title>
-        <link rel="icon" type="image/x-icon" href="adrip.jpg">
+        <title>AP - Confeitaria Funcional</title>
+        <link rel="icon" type="image/x-icon" href="LogoAPconfeitaria.jpeg">
         
     </head>
+    
 
-    <body style="background-color: rgba(252, 241, 248, 0.986);">
+    <body style="background-color: rgba(252, 241, 248, 0.986); text-align: center;">
+
+        <p  style="background-color:rgba(252, 241, 248, 0.986); text-align: center;">
+                <h1 style="color:rgb(94, 17, 29); text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                     Adriana Pimentel, Confeitaria Funcional!
+                </h1>
+        </p>
 
         <p>
-            <center>
-                <img src="adrip.jpg" height="200" width="200">
-            </center>
+            
+            <img src="LogoAPconfeitaria.jpeg" height="200" width="200">
         </p>
 
         <hr>
+
+        <h2>
+            <p style="color:rgb(94,17,29); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Confira nosso cardápio de bolos!
+            </p>
+        </h2>
+
+        <br>
 
         <h3>
             <p style="color:rgb(94,17,29); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
@@ -23,17 +37,20 @@
         </h3>
 
         <div class="box">
-            <img src="bololaranja.jpg" height="200" width="200">
+            <img src="BoloLaranja.jpg" height="200" width="200">
+            <br>
             <span> Laranja </span>
         </div>
 
         <div class="box">
-            <img src="bolochocolate.jpg" height="200" width="200">
+            <img src="BoloChocolate.jpg" height="200" width="200">
+            <br>
             <span> Chocolate </span>
         </div>
 
         <div class="box">
-            <img src="bololimao.jpg" height="200" width="200">
+            <img src="BoloLimao.jpg" height="200" width="200">
+            <br>
             <span> Limão </span>
         </div>
 
@@ -42,6 +59,7 @@
                 display: inline-table;
                 color: rgb(94,17,29);
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                padding-right: 80px;
                 
             }
         </style>
@@ -55,17 +73,20 @@
         </h3>
 
         <div class="esp">
-            <img src="esplaranja.jpg" height="200" width="200">
+            <img src="BoloLaranjaCobertura.jpg" height="200" width="200">
+            <br>
             <span> Laranja </span>
         </div>
 
         <div class="esp">
-            <img src="spchoco.jpg" height="200" width="200">
+            <img src="BoloChocolateCobertura.jpg" height="200" width="200">
+            <br>
             <span> Chocolate </span>
         </div>
 
         <div class="esp">
-            <img src="spccenoura.jpg" height="200" width="200">
+            <img src="BoloCenouraCobertura.jpg" height="200" width="200">
+            <br>
             <span> Cenoura com Chocolate </span>
         </div>
 
@@ -74,6 +95,7 @@
                 display: inline-table;
                 color: rgb(94,17,29);
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                padding-right: 80px;
                 
             }
         </style>
